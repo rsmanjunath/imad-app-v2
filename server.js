@@ -5,7 +5,7 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
-var articleone= {
+var articleone = {
  title: 'Article one|Manjunath',
  heading: 'Article one',
  date: 'feb 25,2017',
@@ -106,7 +106,7 @@ app.get('/', function (req, res) {
 });
 
 app.get('/article-one', function (req, res) {
-    res.send(createTemplate(article-one));
+    res.send(createTemplate(articleone));
    
 });
 
