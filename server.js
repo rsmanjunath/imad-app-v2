@@ -60,8 +60,8 @@ var htmlTemplate = `
      </body>
 </html>
 `;
+}
      
-   return htmlTemplate;
    
       
       
